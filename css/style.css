@@ -3,8 +3,8 @@
 * {
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box;
-    scroll-behavior: smooth;*/
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 
@@ -12,8 +12,14 @@
 
 a {
     text-decoration: none;
-    color: black;
-    font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
 }
 
 
@@ -30,48 +36,21 @@ img-responsive {
 
 /* Google Font */
 
-@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Bebas+Neue&family=Changa+One:ital@0;1&family=Dancing+Script:wght@400;500;600;700&family=Delicious+Handrawn&family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Fasthand&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
-font-family: 'Alkatra',
-cursive;
-font-family: 'Bebas Neue',
-cursive;
-font-family: 'Changa One',
-cursive;
-font-family: 'Dancing Script',
-cursive;
-font-family: 'Delicious Handrawn',
-cursive;
-font-family: 'Edu NSW ACT Foundation',
-cursive;
-font-family: 'Fasthand',
-cursive;
-font-family: 'Lato',
-sans-serif;
-font-family: 'Lora',
-serif;
-font-family: 'Montserrat',
-sans-serif;
-font-family: 'Open Sans',
-sans-serif;
-font-family: 'Pacifico',
-cursive;
-font-family: 'Poppins',
-sans-serif;
-font-family: 'Roboto Condensed',
-sans-serif;
-font-family: 'Source Sans Pro',
-sans-serif;
-
-/* End CSS reset   */
-
 
 /* Start Navigation Bar Styling */
 
 #Navbar-Section {
     position: sticky;
     top: 0;
-    background-color: rgba(221, 205, 150, 0.5);
+    background-color: rgba(255, 217, 101, 0.5);
     padding-bottom: 1%;
+}
+
+.top-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    height: 10vh;
 }
 
 .Left-Navbar {
@@ -79,11 +58,40 @@ sans-serif;
 }
 
 .navbar-logo {
-    width: 50%;
+    width: 100px;
+    position: relative;
+    top: -40px;
+    left: 0px;
 }
 
 .navbar-logo img {
-    width: 25%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.navbar-name {}
+
+.navbar-name a {
+    color: #111;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+}
+
+.navbar-name a span {
+    color: #FFD966;
+}
+
+.Right-Navbar {
+    display: flex;
+}
+
+.Right-Navbar ul li {
+    padding: 0 12px;
+}
+
+.Right-Navbar ul li a {
+    color: #111;
+    font-weight: 900;
 }
 
 
