@@ -37,6 +37,38 @@ img-responsive {
 /* Google Font */
 
 
+/*
+font-family: 'Alkatra',
+cursive;
+font-family: 'Bebas Neue',
+cursive;
+font-family: 'Changa One',
+cursive;
+font-family: 'Dancing Script',
+cursive;
+font-family: 'Delicious Handrawn',
+cursive;
+font-family: 'Edu NSW ACT Foundation',
+cursive;
+font-family: 'Fasthand',
+cursive;
+font-family: 'Lato',
+sans-serif;
+font-family: 'Lora',
+serif;
+font-family: 'Montserrat',
+sans-serif;
+font-family: 'Open Sans',
+sans-serif;
+font-family: 'Pacifico',
+cursive;
+font-family: 'Poppins',
+sans-serif;
+font-family: 'Roboto Condensed',
+sans-serif;
+*/
+
+
 /* Start Navigation Bar Styling */
 
 #Navbar-Section {
@@ -79,6 +111,8 @@ img-responsive {
 
 .navbar-name a span {
     color: #FFD966;
+    font-family: 'Alkatra', cursive;
+    font-weight: 900;
 }
 
 .Right-Navbar {
