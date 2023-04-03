@@ -231,3 +231,43 @@ sans-serif;
 
 
 /* End Deals Section Styling */
+
+
+/* Start About Us Section Styling */
+
+#about-us-section {
+    background: linear-gradient(90deg, rgba(255, 217, 102, 1) 0%, rgba(121, 48, 9, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+.about-us-content {
+    display: flex;
+    box-sizing: border-box;
+    padding: 5% 3%;
+}
+
+.about-us-item {
+    width: 50%;
+    margin: 0 3%;
+}
+
+.about-us-item img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.about-us-item h1 {
+    font-size: 42px;
+    margin-bottom: 7%;
+}
+
+.about-us-item p {
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.about-us-item p span {
+    color: #FFD966;
+}
+
+
+/* End About Us Section Styling */
