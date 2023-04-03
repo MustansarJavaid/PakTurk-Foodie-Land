@@ -188,3 +188,46 @@ sans-serif;
 
 
 /* End Welcome Section Styling */
+
+
+/* Start Deals Section Styling */
+
+#deals-section {
+    padding: 5% 0;
+}
+
+.deals-content {
+    text-align: center;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.special-deals {}
+
+.deal-container {
+    display: flex;
+}
+
+.deal-heading {
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 2%;
+    background-image: linear-gradient(to right, orange, rgb(243, 70, 70));
+    color: white;
+}
+
+.deal-item {
+    margin: 2% 3%;
+    border: 1px solid;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.deal-item img {
+    width: 100%;
+}
+
+.deal-item h3 {}
+
+
+/* End Deals Section Styling */
