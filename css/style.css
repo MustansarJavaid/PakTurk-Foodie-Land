@@ -134,5 +134,57 @@ sans-serif;
 
 /* Start Welcome Section Styling */
 
+#welcome-section {
+    background-image: url(../img/food-g1b5c8f33c_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: 40% 50%;
+    opacity: 0.5;
+    text-align: center;
+    padding: 5% 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    height: 80vh;
+}
+
+.welcome-main h1 {
+    font-size: 2em;
+    padding-bottom: 5%;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-family: 'Pacifico', cursive;
+}
+
+.welcome-main h1 span {
+    color: #FFD966;
+}
+
+.welcome-main p {
+    color: white;
+    font-weight: 900;
+    padding-bottom: 5%;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+}
+
+.welcome-main button {
+    color: #fff;
+    padding: 2.5%;
+    background-image: linear-gradient(to right, orange, rgb(243, 70, 70));
+    border-radius: 25px;
+    cursor: pointer;
+    border: transparent;
+}
+
+.welcome-main button:hover {
+    background-image: linear-gradient(to left, orange, rgb(243, 70, 70));
+}
+
+.welcome-main button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 900;
+}
+
 
 /* End Welcome Section Styling */
