@@ -33,6 +33,26 @@ img-responsive {
     width: 100%;
 }
 
+.butter-btn {
+    color: #fff;
+    padding: 1.5%;
+    background-image: linear-gradient(to right, orange, rgb(243, 70, 70));
+    border-radius: 25px;
+    cursor: pointer;
+    border: transparent;
+}
+
+.butter-btn:hover {
+    background-image: linear-gradient(to left, orange, rgb(243, 70, 70));
+}
+
+.butter-btn a {
+    text-decoration: none;
+    color: #fff;
+    /* font-size: 16px;*/
+    font-weight: 900;
+}
+
 
 /* Google Font */
 
@@ -164,26 +184,6 @@ sans-serif;
     padding-bottom: 5%;
     font-family: 'Lora', serif;
     font-size: 18px;
-}
-
-.welcome-main button {
-    color: #fff;
-    padding: 1.5%;
-    background-image: linear-gradient(to right, orange, rgb(243, 70, 70));
-    border-radius: 25px;
-    cursor: pointer;
-    border: transparent;
-}
-
-.welcome-main button:hover {
-    background-image: linear-gradient(to left, orange, rgb(243, 70, 70));
-}
-
-.welcome-main button a {
-    text-decoration: none;
-    color: #fff;
-    /* font-size: 16px;*/
-    font-weight: 900;
 }
 
 
