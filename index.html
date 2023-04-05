@@ -8,6 +8,8 @@
     <title>PakTurk Foodie Land</title>
     <!--Css File-->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobile-style.css">
+
     <!--Google Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,11 +24,12 @@
 <body>
     <!--Start Navigation Bar-->
 
-    <section id="Navbar-Section">
+    <nav id="Navbar-Section">
 
         <!--Start Top Navigation Bar-->
 
         <div class="top-navbar">
+
 
             <!--Left Navigation Bar-->
 
@@ -41,7 +44,7 @@
                 <!--Logo Name Section -->
 
                 <div class="navbar-name">
-                    <a href="#welcome"><span>Pakturk</span> Foodie Land</a>
+                    <label><span>Pakturk</span> Foodie Land</label>
                 </div>
 
             </div>
@@ -49,11 +52,20 @@
             <!--Right Navigation Bar-->
 
             <div class="Right-Navbar">
+
+                <!--Start Navbar Responsive CheckBox-->
+
+                <input type="checkbox" id="navbar-checkbox" name="" value="">
+
+                <label for="navbar-checkbox" id="navbar-checkbtn"><i class="fa-solid fa-bars"></i></label>
+
+                <!--End Navbar Responsive CheckBox-->
+
                 <ul>
-                    <li><a href="#welcome-section"><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a class="active" href="#welcome-section"><i class="fa-solid fa-house"></i> Home</a></li>
                     <li><a href="#deals-section" target="_blank"><i class="fa-solid fa-utensils"></i> Deals</a></li>
-                    <li><a href="#about-us-section" target="_blank"><i class="fa-solid fa-circle-info"></i> About Us</a></li>
-                    <li><a href="#contact-us" target="_blank"><i class="fa-solid fa-phone"></i> Contact Us</a></li>
+                    <li><a href="#about-us-section"><i class="fa-solid fa-circle-info"></i> About Us</a></li>
+                    <li><a href="#contact-us-section"><i class="fa-solid fa-phone"></i> Contact Us</a></li>
                 </ul>
             </div>
 
@@ -61,7 +73,7 @@
 
         <!--End Top Navigation Bar-->
 
-    </section>
+    </nav>
 
     <!--End Navigation Bar-->
 
@@ -290,9 +302,61 @@
 
     </section>
 
-
-
     <!--End About us Section-->
+
+    <!--Start Contact us Section-->
+
+    <section id="contact-us-section">
+
+        <div class="contact-container">
+
+
+            <div class="contact-left">
+
+                <img src="./img/coffee-2425303_1920.jpg" alt="">
+
+            </div>
+
+            <div class="contact-right">
+
+                <h1>Address</h1>
+
+                <div class="address-bar">
+
+                    <a href=""><i class="fa-solid fa-location-dot"></i>abc, Istabul, Turkey</a>
+
+                    <a href=""><i class="fa-solid fa-envelope"></i>contact@pakturkfoodie.com</a>
+
+                    <a href=""><i class="fa-solid fa-phone"></i>11111 44 44</a>
+
+                    <a href=""><i class="fa-brands fa-instagram"></i>@PakTurkFoodieLand</a>
+
+                    <a href=""><i class="fa-brands fa-facebook"></i>@PakTurkFoodieLand</a>
+
+                    <a href=""><i class="fa-brands fa-twitter"></i>@PakTurkFoodieLand</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!--End Contact us Section-->
+
+    <!--Start footer Section-->
+
+    <footer class="footer-section">
+
+        <p>Copyright © PakTurk Foodie Land. All rights reserved.</p>
+
+    </footer>
+
+
+    <!--End footer Section-->
 
 </body>
 
