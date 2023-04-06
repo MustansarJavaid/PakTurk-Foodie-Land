@@ -10,6 +10,11 @@
 
 /*  CSS Variable */
 
+body,
+html {
+    width: 100%;
+}
+
 a {
     text-decoration: none;
 }
@@ -95,7 +100,7 @@ sans-serif;
     position: sticky;
     top: 0;
     /* background-color: rgba(255, 217, 101, 0.5);*/
-    padding-bottom: 1%;
+    padding: 2% 5%;
     background-color: white;
     opacity: 0.5;
 }
@@ -153,7 +158,7 @@ sans-serif;
 #navbar-checkbtn {
     display: none;
     float: right;
-    line-height: 80px;
+    /* line-height: 80px;*/
     margin-right: 10px;
     font-size: 30px;
     color: #A7727D;
@@ -188,7 +193,7 @@ a:hover {
     background-position: 40% 50%;
     opacity: 0.5;
     text-align: center;
-    padding: 5% 0;
+    padding: 7% 0;
     box-sizing: border-box;
     max-width: 100%;
     height: 80vh;

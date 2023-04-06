@@ -1,49 +1,80 @@
-                                                                    /* ----------- Screen Resolution 320px and 480px ----------- */
-                                                                /* Start CSS reset   */
-                                                                
-                                                                @media only screen and (max-width: 320px) {
-                                                                    * {
-                                                                        /* overflow-x: hidden; */
-                                                                    }
-                                                                    body {
-                                                                        background-color: yellow;
-                                                                    }
-                                                                }
-                                                                
-                                                                @media only screen and (min-width: 321px) {
-                                                                    * {
-                                                                        /* overflow-x: hidden;*/
-                                                                        body {
-                                                                            /*  background-color: blue;*/
-                                                                        }
-                                                                    }
-                                                                    @media only screen and (max-width: 895px) {
-                                                                        .top-navbar {
-                                                                            /* padding: 0;*/
-                                                                        }
-                                                                        #navbar-checkbtn {
-                                                                            display: block;
-                                                                        }
-                                                                        .Right-Navbar ul {
-                                                                            width: 100%;
-                                                                            height: 100vh;
-                                                                            background-color: #675D50;
-                                                                            display: block;
-                                                                            position: fixed;
-                                                                            top: 80px;
-                                                                            left: -100%;
-                                                                        }
-                                                                        .Right-Navbar ul li {
-                                                                            margin: 20px 0;
-                                                                            text-align: center;
-                                                                        }
-                                                                        .Right-Navbar ul li a {
-                                                                            color: white;
-                                                                        }
-                                                                        .about-us-item img {
-                                                                            margin: 16% 0;
-                                                                        }
-                                                                        .contact-left {
-                                                                            margin: 5% 0;
-                                                                        }
-                                                                    }
+                                                                                                                                                                                                                /* ----------- Screen Resolution 320px and 480px ----------- */
+                                                                                                                                                                                                                /* Start CSS reset   */
+                                                                                                                                                                                                                
+                                                                                                                                                                                                                @media only screen and (max-width: 320px) {
+                                                                                                                                                                                                                    body,
+                                                                                                                                                                                                                    html {
+                                                                                                                                                                                                                        /*  width: 100%;*/
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                
+                                                                                                                                                                                                                @media only screen and (max-width: 550px) {
+                                                                                                                                                                                                                    .Right-Navbar {
+                                                                                                                                                                                                                        margin-right: -80vw !important;
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                
+                                                                                                                                                                                                                @media only screen and (max-width: 850px) {
+                                                                                                                                                                                                                    .Right-Navbar {
+                                                                                                                                                                                                                        /* margin-right: -100%;*/
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                
+                                                                                                                                                                                                                @media only screen and (max-width: 895px) {
+                                                                                                                                                                                                                    #Navbar-Section {
+                                                                                                                                                                                                                        padding: 1% 5%;
+                                                                                                                                                                                                                        display: flex;
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                    .top-navbar {
+                                                                                                                                                                                                                        /* padding: 0;*/
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                    .Right-Navbar {
+                                                                                                                                                                                                                        margin-right: -75vw;
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                    #navbar-checkbtn {
+                                                                                                                                                                                                                        display: block;
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                    .Right-Navbar ul {
+                                                                                                                                                                                                                        width: 100%;
+                                                                                                                                                                                                                        height: 100vh;
+                                                                                                                                                                                                                        background-color: #675D50;
+                                                                                                                                                                                                                        display: block;
+                                                                                                                                                                                                                        position: fixed;
+                                                                                                                                                                                                                        top: 80px;
+                                                                                                                                                                                                                        left: -100%;
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                    .Right-Navbar ul li {
+                                                                                                                                                                                                                        margin: 20px 0;
+                                                                                                                                                                                                                        text-align: center;
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                    .Right-Navbar ul li a {
+                                                                                                                                                                                                                        color: white;
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                    .about-us-item img {
+                                                                                                                                                                                                                        margin: 16% 0;
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                    .contact-left {
+                                                                                                                                                                                                                        margin: 5% 0;
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                    #welcome-section {
+                                                                                                                                                                                                                        padding: 8% 0;
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                
+                                                                                                                                                                                                                @media only screen and (max-width: 679px) {
+                                                                                                                                                                                                                    #welcome-section {
+                                                                                                                                                                                                                        padding: 11% 0;
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                
+                                                                                                                                                                                                                @media only screen and (max-width: 581px) {
+                                                                                                                                                                                                                    #welcome-section {
+                                                                                                                                                                                                                        padding: 13% 0;
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                
+                                                                                                                                                                                                                @media only screen and (max-width: 455px) {
+                                                                                                                                                                                                                    #welcome-section {
+                                                                                                                                                                                                                        padding: 17% 0;
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                }
